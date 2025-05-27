@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
@@ -11,12 +11,36 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
+    path: '/plantas',
+    name: 'plantas',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import(/* webpackChunkName: "plantas" */ '../views/plantas.vue')
+  },
+  {
+    path: '/mandragora',
+    name: 'mandragora',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "mandragora" */ '../views/mandragora.vue')
+  },
+  {
+    path: '/belladona',
+    name: 'belladona',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "belladona" */ '../views/belladona.vue')
+  },
+  {
+    path: '/datura',
+    name: 'datura',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "datura" */ '../views/datura.vue')
   }
 ]
 

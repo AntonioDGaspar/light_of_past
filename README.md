@@ -1,4 +1,4 @@
-# quiz_of_technology
+# light_of_past
 
 ## Project setup
 ```
