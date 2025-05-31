@@ -18,25 +18,29 @@
         <p class="txt_apresentacao" id="txt_ap03">
           Nem toda grande invenção sobreviveu ao tempo. Algumas foram esquecidas, soterradas pelo silêncio da história. Neste espaço, resgatamos ideias geniais que desapareceram antes de brilhar. Em cada engrenagem esquecida, há uma história que clama para ser ouvida.
         </p>
-        <img src="@/../public/img/engrenagens.png" alt="Descrição do Texto" class="img_apresentacao" id="img_ap03">
+        <img src="@/../public/img/engrenagem.png" alt="Descrição do Texto" class="img_apresentacao" id="img_ap03">
       </div>
     </section>
     <h1 id="titulo_posts"> Postagens em Destaque </h1>
     <section id="postagens">
-      <button class="mov_posts"> « </button>
-      <div class="div_postagens">
-        <img src="@/../public/img/Frieren_Knight.jpeg" alt="Descrição do Texto" class="img_postagens">
-        <p> Postagem 1 </p>
-      </div>
-      <div class="div_postagens">
-        <img src="@/../public/img/Frieren_Knight.jpeg" alt="Descrição do Texto" class="img_postagens">
-        <p> Postagem 2 </p>
-      </div>
-      <div class="div_postagens">
-        <img src="@/../public/img/Frieren_Knight.jpeg" alt="Descrição do Texto" class="img_postagens">
-        <p> Postagem 3 </p>
-      </div>
-      <button class="mov_posts"> » </button>
+      <router-link to="/mandragora">
+        <div class="div_postagens">
+          <img src="@/../public/img/mandragora01.jpg" alt="Descrição do Texto" class="img_postagens" id="img_post1">
+          <p> Mandrágora </p>
+        </div>
+      </router-link>
+      <router-link to="/belladona">
+        <div class="div_postagens">
+          <img src="@/../public/img/belladona02.jpg" alt="Descrição do Texto" class="img_postagens" id="img_post2">
+          <p> Belladona </p>
+        </div>
+      </router-link>
+      <router-link to="/datura">
+        <div class="div_postagens">
+          <img src="@/../public/img/datura01.jpg" alt="Descrição do Texto" class="img_postagens" id="img_post3">
+          <p> Datura </p>
+        </div>
+      </router-link>
     </section>
   </div>
 </template>
@@ -126,11 +130,10 @@
   }
 
   #img_ap03 {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     border-radius: 50px;
-    box-shadow: 0px 1px 10px #222;
-    background-color: burlywood;
+    animation: girar 20s linear infinite;
   }
 
   #titulo_posts {
@@ -153,21 +156,30 @@
     background-color: var(--cor01);
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    cursor: pointer;
   }
 
   .img_postagens {
     margin: 20px;
-    width: 200px;
+    width: 300px;
     height: 200px;
+    border-radius: 10px;
   }
 
-  .mov_posts {
-    width: 50px;
-    height: 50px;
-    font-weight: bolder;
-    font-size: 1.5em;
-    background-color: #222;
-    border-radius: 20px;
-    color: var(--cor02);
+  .div_postagens > p {
+    font-size: 2em;
+    color: bisque;
+  }
+
+  .div_postagens:hover {
+    width: 420px;
+    height: 370px;
+    background-color: burlywood;
+    transition: 0.5s;
+  }
+
+  @keyframes girar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
   }
 </style>

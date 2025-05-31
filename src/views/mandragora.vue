@@ -43,7 +43,7 @@
 
 <style scoped>
     #banner {
-      background-image: url("@/../public/img/mandragora_banner.jpg");
+      background-image: url("@/../public/img/mandragora01.jpg");
       background-size: cover;
       display: flex;
       align-items: center;
@@ -96,7 +96,7 @@
     }
 
     section#img1 {
-      background-image: url(@/../public/img/mandragora_book.jpg);
+      background-image: url(@/../public/img/mandragora02.jpg);
       background-size: cover;
     }
 

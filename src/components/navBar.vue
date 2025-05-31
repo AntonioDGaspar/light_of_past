@@ -4,18 +4,15 @@
       <nav>
         <router-link to="/">Home</router-link>
         <router-link to="/plantas"> Plantas </router-link>
-        <router-link to="/invencoes"> Invenções </router-link>
-        <router-link to="/mandragora"> Mandrágora </router-link>
-        <router-link to="/belladona"> Belladonna </router-link>
-        <router-link to="/datura"> Datura </router-link>
+        <router-link to="quiz"> Quiz </router-link>
       </nav>
     </header>
 </template>
 
 <script>
-    export default {
-        name: "navBar"
-    }
+  export default {
+    name: "navBar"
+  }
 </script>
 
 <style scoped>
@@ -46,6 +43,6 @@
   }
 
   nav a:hover {
-    color: white;
+    color: #d6ad54;
   }
 </style>

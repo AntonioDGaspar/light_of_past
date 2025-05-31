@@ -38,11 +38,11 @@
   }
 
   h2 {
-      margin-bottom: 30px;
-      padding: 5px;
-      border-radius: 10px;
-      text-align: left;
-      color: var(--cor01);
-      background-color: rgba(245, 245, 220, 0.795);
-    }
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: left;
+    color: var(--cor01);
+    background-color: rgba(245, 245, 220, 0.795);
+  }
 </style>

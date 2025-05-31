@@ -1,0 +1,74 @@
+{
+    "quiz": {
+      "perguntas": [
+        {
+          "id": 1,
+          "pergunta": "Qual planta era associada a gritos mortais quando arrancada do solo?"
+        },
+        {
+          "id": 2,
+          "pergunta": "Qual dessas era conhecida como 'erva das bruxas' na Europa medieval?"
+        },
+        {
+          "id": 3,
+          "pergunta": "Qual planta contém alcaloides potentes usados em rituais xamânicos e é alucinógena?"
+        },
+        {
+          "id": 4,
+          "pergunta": "Qual dessas plantas era usada para anestesia na antiguidade?"
+        },
+        {
+          "id": 5,
+          "pergunta": "Qual dessas era usada em unguentos para “voar” nas lendas medievais?"
+        }
+      ],
+      "opcoes": [
+        {
+          "id": 1,
+          "opcoes": ["Belladona", "Mandrágora", "Datura", "Absinto"]
+        },
+        {
+          "id": 2,
+          "opcoes": ["Datura", "Belladona", "Lavanda", "Mandrágora"]
+        },
+        {
+          "id": 3,
+          "opcoes": ["Datura", "Camomila", "Mandrágora", "Arruda"]
+        },
+        {
+          "id": 4,
+          "opcoes": ["Mandrágora", "Belladona", "Babosa", "Erva-doce"]
+        },
+        {
+          "id": 5,
+          "opcoes": ["Belladona", "Hortelã", "Mandrágora", "Alecrim"]
+        }
+      ],
+      "respostas": [
+        {
+          "id": 1,
+          "resposta": "Mandrágora"
+        },
+        {
+          "id": 2,
+          "resposta": "Belladona"
+        },
+        {
+          "id": 3,
+          "resposta": "Datura"
+        },
+        {
+          "id": 4,
+          "tipo": "Tomate"
+        },
+        {
+          "id": 4,
+          "resposta": "Mandrágora"
+        },
+        {
+          "id": 4,
+          "resposta": "Belladona"
+        }
+      ]
+    }
+}
